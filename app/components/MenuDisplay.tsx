@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu } from '@/data/Data';
+import { Menu } from '@/app/data/Data';
 import Link from 'next/link';
 
 interface MenuItem {

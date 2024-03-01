@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLinks } from "@/data/Data";
+import { NavLinks } from "@/app/data/Data";
 import Link from "next/link";
 
 const Navigation = () => {

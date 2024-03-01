@@ -1,10 +1,10 @@
-import About from "@/components/About";
-import ContactSection from "@/components/ContactSection";
-import Footer from "@/components/Footer";
-import { Intro } from "@/components/Intro";
-import Navbar from "@/components/Navbar";
-import Navigation from "@/components/Navigation";
-import Projects from "@/components/Projects";
+import About from "@/app/components/About";
+import ContactSection from "@/app/components/ContactSection";
+import Footer from "@/app/components/Footer";
+import { Intro } from "@/app/components/Intro";
+import Navbar from "@/app/components/Navbar";
+import Navigation from "@/app/components/Navigation";
+import Projects from "@/app/components/Projects";
 
 
 export default function Home() {

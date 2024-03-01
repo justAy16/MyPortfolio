@@ -2,9 +2,9 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import GithubIcon from "../public/githubIcon.svg";
-import LinkedinIcon from "../public/linkedin.svg";
-import WhatsappIcon from "../public/whatsapp.svg";
+import GithubIcon from "../../public/githubIcon.svg";
+import LinkedinIcon from "../../public/linkedin.svg";
+import WhatsappIcon from "../../public/whatsapp.svg";
 import { useState } from 'react';
 import axios from 'axios';
 

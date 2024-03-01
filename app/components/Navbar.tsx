@@ -1,7 +1,7 @@
 "use client"
 import React, {useState} from 'react';
 import Image from 'next/image';
-import { Socials } from '@/data/Data';
+import { Socials } from '@/app/data/Data';
 import Link from 'next/link';
 import { XMarkIcon } from '@heroicons/react/16/solid';
 import MenuDisplay from './MenuDisplay';
