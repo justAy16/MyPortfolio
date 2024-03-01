@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import { projectsData } from "@/app/data/Data";
+import { projectsData } from "../data/Data";
 import ProjectCard from "./ProjectCard";
 import { motion, useInView} from "framer-motion";
 

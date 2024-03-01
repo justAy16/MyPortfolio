@@ -14,8 +14,8 @@ interface MenuItem {
 const MenuDisplay = () => {
   return (
     <div className="menu block w-auto">
-  {Menu.map(({title, path}:MenuItem)=>(
-    <ul className=" py-1 flex flex-col items-center space-x-8 mt-0">
+  {Menu.map(({ title, path,}:MenuItem, index: number)=>(
+    <ul className=" py-1 flex flex-col items-center space-x-8 mt-0" key={index}>
         <li key={title}>
         <Link
       href={path}

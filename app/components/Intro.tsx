@@ -13,7 +13,7 @@ export const Intro = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }} className="col-span-8 place-self-center text-center sm:text-left">
         <h1 className="text-white mb-4 text-2xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-        <span className="text-transparent bg-clip-text bg-gradient-to-l from-purple-400 to-pink-600 ">Hi, I'm{" "}</span><br/>
+        <span className="text-transparent bg-clip-text bg-gradient-to-l from-purple-400 to-pink-600 ">Hi, I&apos;m{" "}</span><br/>
         <TypeAnimation
       sequence={[
         'Sleek',
