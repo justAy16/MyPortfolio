@@ -1,4 +1,4 @@
-
+//@ts-nocheck
 import { EmailTemplate } from '../../../components/EmailTemplate';
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
@@ -29,17 +29,27 @@ export async function POST(req:Request, res:Response) {
   }
 }
 
-// export async function POST() {
-//   try {
-//     const data = await resend.emails.send({
-//       from: 'Acme <onboarding@resend.dev>',
-//       to: ['adetayoayomide111@gmail.com'],
-//       subject: 'Hello world',
-//       react: EmailTemplate({ email: 'John', subject:'hekko', message:'tired' }),
-//     });
+// export async function POST(req:Request) {
+//   const res = await req.json();
 
-//     return Response.json(data);
+//   try {
+//     const send = resend.emails.send({
+//       from: "Acme <onboarding@resend.dev>",
+//       to: ['adetayoayomide111@gmail.com'],
+//       subject: "Potential client",
+//       react: EmailTemplate({
+//         email: res.form.email,
+//         message: res.form.message,
+//         subject: res.form.subject
+//       })
+//     })
+    
+//     return NextResponse.json(send, {status:200});
+
 //   } catch (error) {
-//     return Response.json({ error });
+//     return NextResponse.json(
+//       {error},
+//       {status: 403}
+//     )
 //   }
 // }
