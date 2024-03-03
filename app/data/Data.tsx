@@ -94,9 +94,9 @@ export const Socials = [
   },
   {
     key:2,
-    name: "Facebook",
+    name: "Whatsapp",
     src: "/whatsapp.svg",
-    href: "https://wa.me/07067129268",
+    href: "https://wa.me/+2347067129268",
     target: "_blank"
   },
   {
